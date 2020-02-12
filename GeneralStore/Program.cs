@@ -17,7 +17,7 @@ namespace GeneralStore
             var Lungelo = new Supplier();
             var product1 = new Drink("Dragon", 5, 0.1M,DrinkTypes.NonAlcoholic);
             var prodBought1 = new Drink("Dragon", 5, 0.1M, DrinkTypes.NonAlcoholic);
-            var customer1 = new Customer("Lungelo", CustomerTypes.Bulk);
+            var customer1 = new Customer("Lungelo", CustomerTypes.Bulk,PaymentMethods.Cash);
 
 
 
@@ -31,7 +31,7 @@ namespace GeneralStore
             Console.WriteLine();
             Shopright.OpenSTore();
 
-            sellingLogic.EnterCustomerInfo();
+            //sellingLogic.EnterCustomerInfo();
             Console.ReadKey();
 
 
