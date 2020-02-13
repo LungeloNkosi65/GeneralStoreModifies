@@ -80,32 +80,7 @@ namespace GeneralStore.LogicLayer
         }
 
 
-        public void OpenSTore()
-        {
-            string input = "false";
-            Console.WriteLine("\n------------------WELCOME!!!!------------------");
-            Console.WriteLine("\n\nPlease indicate action to be made:");
-            Console.WriteLine("\nPlace supply order: order");
-            Console.WriteLine("\nPlace sale: sale");
-
-            do
-            {
-                input = Console.ReadLine();
-                switch (input)
-                {
-                    case "order":
-                        //
-                        break;
-                    case "sale":
-                        //
-                        break;
-                    default:
-                        //
-                        input = "false";
-                        break;
-                }
-            } while (input == "false");
-        }
+       
 
 
 

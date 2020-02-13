@@ -29,7 +29,7 @@ namespace GeneralStore
             sellingLogic.ProcessPayment(prodBought1, customer1, 1100, PaymentMethods.Cash);
 
             Console.WriteLine();
-            Shopright.OpenSTore();
+            sellingLogic.OpenSTore();
 
             //sellingLogic.EnterCustomerInfo();
             Console.ReadKey();
